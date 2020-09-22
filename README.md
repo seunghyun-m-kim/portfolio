@@ -7,8 +7,6 @@
 
 ### Data Modeling with Apache Cassandra
 
-To test, run the file, `Project2.ipynb`.
-
 ---
 
 ### Data Warehouse and ETL Pipeline with AWS Redshift
@@ -23,4 +21,4 @@ To test, run the file, `Project2.ipynb`.
 
 ### Data Engineering Capstone
 
-To test, run the file, `Capstone Project.ipynb`.
+---
