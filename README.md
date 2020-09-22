@@ -6,6 +6,6 @@
 
 ### [Data Warehouse and ETL Pipeline with AWS Redshift](https://github.com/seunghyun-m-kim/portfolio/tree/master/Data%20Warehouse)
 
-### [AWS Data Lake and ETL Pipeline with Spark](https://github.com/seunghyun-m-kim/portfolio/tree/master/Data%20Lake)
+### [Data Lake and ETL Pipeline with Spark](https://github.com/seunghyun-m-kim/portfolio/tree/master/Data%20Lake)
 
 ### [Data Engineering Capstone](https://github.com/seunghyun-m-kim/portfolio/tree/master/Data%20Engineering%20Capstone)
