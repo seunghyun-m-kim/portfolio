@@ -1,7 +1,5 @@
 # Project Portfolio
 
----
-
 ### [Data Modeling and ETL Pipeline with Postgres](https://github.com/seunghyun-m-kim/portfolio/tree/master/Data%20Modeling%20with%20Postgres)
 
 ### [Data Modeling with Apache Cassandra](https://github.com/seunghyun-m-kim/portfolio/tree/master/Data%20Modeling%20with%20Apache%20Cassandra)
