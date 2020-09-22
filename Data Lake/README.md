@@ -1,4 +1,4 @@
-# Implementation of AWS Data Lake and ETL Pipeline with Spark
+# AWS Data Lake and ETL Pipeline with Spark
 ### Project: Data Lake
 
 This project was completed as part of Udacity's Data Engineering Nanodegree. Data set and prompt provided by [2011–2020 Udacity, Inc.](https://www.udacity.com), used under [CC BY](https://creativecommons.org/licenses/by-nc-nd/3.0/).
