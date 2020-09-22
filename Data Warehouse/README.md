@@ -1,4 +1,4 @@
-# Implementation of Data Warehouse and ETL Pipeline with AWS Redshift
+# Data Warehouse and ETL Pipeline with AWS Redshift
 ### Project: Data Warehouse
 
 This project was completed as part of Udacity's Data Engineering Nanodegree. Data set and prompt provided by [2011–2020 Udacity, Inc.](https://www.udacity.com), used under [CC BY](https://creativecommons.org/licenses/by-nc-nd/3.0/).
