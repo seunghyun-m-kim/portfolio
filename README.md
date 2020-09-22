@@ -20,5 +20,3 @@
 ---
 
 ### Data Engineering Capstone
-
----
