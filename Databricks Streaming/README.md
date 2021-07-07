@@ -4,9 +4,9 @@
 ---
 ### Run
 
-- Download this repo and open the `Databricks Streaming.html` on the Chrome browser.
+- Download this repo and open the `databricks_streaming.html` on the Chrome browser.
 
 ---
 ### Files
 
-- `Databricks Streaming.html` : Streaming run-through.
+- `databricks_streaming.html` : Streaming run-through.
