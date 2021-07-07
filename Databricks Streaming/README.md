@@ -4,7 +4,7 @@
 ---
 ### Run
 
-- Download repo and open the [html page]() on the Chrome browser.
+- Download this repo and open the "Databricks Streaming.html" on the Chrome browser.
 
 ---
 ### Files
