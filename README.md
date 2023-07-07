@@ -10,4 +10,4 @@
 
 ### [Databricks Streaming to Delta Lake](https://github.com/seunghyun-m-kim/portfolio/tree/master/Databricks%20Streaming)
 
-### [Databricks Legacy to Delta Lake Migration](https://github.com/seunghyun-m-kim/portfolio/tree/master/Databricks%20Legacy%20to%20Deltalake%20Migration/pipeline)
+### [Databricks Legacy to Delta Lake Migration](https://github.com/seunghyun-m-kim/portfolio/tree/master/Databricks%20Legacy%20to%20Delta%20Lake%20Migration/pipeline)
