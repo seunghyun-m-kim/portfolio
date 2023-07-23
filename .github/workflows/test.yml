@@ -13,7 +13,7 @@ jobs:
         with:
           databricks-host: ${{ secrets.DATABRICKS_HOST }}
           databricks-token: ${{ secrets.DATABRICKS_DEV_TOKEN }}
-          local-notebook-path: Databricks_Legacy_Migration/task_kickoff
+          local-notebook-path: Databricks_Legacy_Migration/task_kickoff.py
           new-cluster-json: >
             {
               "num_workers": 1,
