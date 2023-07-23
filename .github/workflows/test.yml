@@ -1,0 +1,29 @@
+on:
+  pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Trigger PR notebook
+        uses: databricks/run-notebook@v0
+        with:
+          databricks-host: ${{ secrets.DATABRICKS_HOST }}
+          databricks-token: ${{ secrets.DATABRICKS_DEV_TOKEN }}
+          local-notebook-path: Databricks_Legacy_Migration/task_kickoff
+          new-cluster-json: >
+            {
+              "num_workers": 1,
+              "spark_version": "11.3.x-scala2.12",
+              "node_type_id": "i3.xlarge"
+            }
+          access-control-list-json: >
+            [
+              {
+                "group_name": "admin",
+                "permission_level": "CAN_VIEW"
+              }
+            ]
