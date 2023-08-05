@@ -13,6 +13,10 @@ jobs:
         run: |
           python -m pip install --upgrade databricks-cli
 
+      - name: Configure Databricks CLI
+        run: |
+          /home/runner/.local/bin/databricks configure          
+
       - name: Remote update Staging Repo
         env:
           DATABRICKS-HOST: ${{ secrets.DATABRICKS_HOST_STAGING }}
