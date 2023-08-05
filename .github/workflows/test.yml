@@ -15,7 +15,7 @@ jobs:
 
       - name: Remote update Staging Repo
         env:
-          databricks-host: ${{ secrets.DATABRICKS_HOST_STAGING }}
-          databricks-token: ${{ secrets.DATABRICKS_DEV_TOKEN_STAGING }}
+          DATABRICKS-HOST: ${{ secrets.DATABRICKS_HOST_STAGING }}
+          DATABRICKS-TOKEN: ${{ secrets.DATABRICKS_DEV_TOKEN_STAGING }}
         run: |
           databricks repos update --branch staging --path /Repos/staging/portfolio/Databricks_Legacy_Migration
