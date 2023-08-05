@@ -18,4 +18,4 @@ jobs:
           DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST_STAGING }}
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_DEV_TOKEN_STAGING }}
         run: |
-          databricks repos update --branch staging --path /Repos/staging/portfolio/Databricks_Legacy_Migration
+          databricks repos update --branch staging --path /Repos/staging/portfolio
