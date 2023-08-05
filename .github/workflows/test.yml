@@ -1,5 +1,5 @@
 on:
-  pull_request
+  puli_request
 
 jobs:
   build:
