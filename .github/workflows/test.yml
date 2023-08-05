@@ -15,7 +15,7 @@ jobs:
 
       - name: Configure Databricks CLI
         run: |
-          /home/runner/.local/bin/databricks configure          
+          python /home/runner/.local/bin/databricks configure          
 
       - name: Remote update Staging Repo
         env:
