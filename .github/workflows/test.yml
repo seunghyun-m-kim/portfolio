@@ -6,9 +6,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-        
       - name: Setup Python
         uses: actions/setup-python@v4
 
@@ -18,7 +15,7 @@ jobs:
 
       - name: Remote update Staging Repo
         env:
-          DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST_STAGING }}
-          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_DEV_TOKEN_STAGING }}
+          DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_DEV_TOKEN }}
         run: |
-          databricks repos update --branch staging --path /Repos/staging/portfolio
+          databricks repos update --branch staging --path /Repos/dev/portfolio
